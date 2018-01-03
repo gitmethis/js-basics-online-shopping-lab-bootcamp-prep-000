@@ -13,7 +13,7 @@ function addToCart(item) {
  // write your code here
  let value = Math.floor(Math.random())
  var items = JSON.parse(item)
- items['itemName'] = 
+ items['itemName'] = value
  console.log(`${items.} has been added to your cart`)
 }
 
