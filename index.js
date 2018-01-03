@@ -15,6 +15,7 @@ function addToCart(item) {
  let object = {
      item:value
  }
+ console.log(`${item} has been added to your cart`)
 }
 
 function viewCart() {
