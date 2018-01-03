@@ -11,7 +11,10 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- 
+ value = Math.random()
+ let object = {
+     item:value
+ }
 }
 
 function viewCart() {
