@@ -12,8 +12,9 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  let value = Math.floor(Math.random())
- JSON.parse(item)
- console.log(`${item} has been added to your cart`)
+ var items = JSON.parse(item)
+ items['itemName'] = 
+ console.log(`${items.} has been added to your cart`)
 }
 
 function viewCart() {
