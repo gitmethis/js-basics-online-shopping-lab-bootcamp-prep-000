@@ -11,9 +11,9 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- value = Math.floor(Math.random())
+ let value = Math.floor(Math.random())
  let object = {
-     item:value
+     item: value
  }
  console.log(`${item} has been added to your cart`)
 }
