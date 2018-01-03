@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- value = Math.random()
+ value = Math.floor(Math.random())
  let object = {
      item:value
  }
